@@ -31,7 +31,7 @@ cd Image-Local-Attention && python setup.py install
 If you don't install this kernel, you can also run the first stage (20*20 tokens) via `--only-first-stage` for text-to-image generation.
 
 ### Download
-Our code will automatically detect the models into the path defined by envrionment variable `SAT_HOME`. You can download from [here](https://model.baai.ac.cn/model-detail/100041) and place them (folders named `coglm`/`dsr`/`itersr`) under `SAT_HOME`.
+Our code will automatically download or detect the models into the path defined by envrionment variable `SAT_HOME`. You can download from [here](https://model.baai.ac.cn/model-detail/100041) and place them (folders named `coglm`/`dsr`/`itersr`) under `SAT_HOME`. 
 
 ### Text-to-Image Generation
 ```
