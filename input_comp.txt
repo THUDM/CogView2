@@ -1,0 +1,3 @@
+抱着西瓜的女孩	assets/cute_girl.jpg	0.4	0.2	1	0.9
+抱着鲜花的女孩	assets/cute_girl.jpg	0.4	0.2	1	0.9
+穿戴红领结的女孩	assets/cute_girl.jpg	0.4	0.2	1	0.9
