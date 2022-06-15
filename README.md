@@ -7,7 +7,7 @@
 
 CogView2 is a hierarchical transformer (6B-9B-9B parameters) for text-to-image generation in general domain. This implementation is based on the [SwissArmyTransformer](https://github.com/THUDM/SwissArmyTransformer) library (v0.2).
 
-* **Read** our paper [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/pdf/2105.13290.pdf) on ArXiv for a formal introduction. The *LoPAR* accelarate the generation and *CogLM* enables the model for bidirectional completion.
+* **Read** our paper [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/abs/2204.14217.pdf) on ArXiv for a formal introduction. The *LoPAR* accelarate the generation and *CogLM* enables the model for bidirectional completion.
 * **Run** our pretrained models from text-to-image generation or text-guided completion! Please use A100 GPU.
 * **Cite** our paper if you find our work is helpful~ 
 ```
