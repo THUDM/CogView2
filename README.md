@@ -7,7 +7,7 @@
 
 CogView2 is a hierarchical transformer (6B-9B-9B parameters) for text-to-image generation in general domain. This implementation is based on the [SwissArmyTransformer](https://github.com/THUDM/SwissArmyTransformer) library (v0.2).
 
-* **Read** our paper [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/pdf/2105.13290.pdf) on ArXiv for a formal introduction. The *LoPAR* accelarate the generation and *CogLM* enables the model for bidirectional completion.
+* **Read** our paper [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/abs/2204.14217) on ArXiv for a formal introduction. The *LoPAR* accelarate the generation and *CogLM* enables the model for bidirectional completion.
 * **Run** our pretrained models from text-to-image generation or text-guided completion! Please use A100 GPU.
 * **Cite** our paper if you find our work is helpful~ 
 ```
@@ -31,7 +31,7 @@ cd Image-Local-Attention && python setup.py install
 If you don't install this kernel, you can also run the first stage (20*20 tokens) via `--only-first-stage` for text-to-image generation.
 
 ### Download
-Our code will automatically download or detect the models into the path defined by envrionment variable `SAT_HOME`. You can download from [here](https://model.baai.ac.cn/model-detail/100041) and place them (folders named `coglm`/`dsr`/`itersr`) under `SAT_HOME`. 
+Our code will automatically download or detect the models into the path defined by envrionment variable `SAT_HOME`. You can download from [here](https://model.baai.ac.cn/model-detail/100041) and place them (folders named `coglm`/`cogview2-dsr`/`cogview2-itersr`) under `SAT_HOME`. 
 
 ### Text-to-Image Generation
 ```
