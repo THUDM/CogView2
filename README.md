@@ -58,6 +58,9 @@ Chinese input is usually much better than English input.
 ./script/text_guided_completion.sh --input-source input_comp.txt
 ```
 The format of input is `text	image_path	h0	w0	h1	w1`, where all the separation are **TAB** (**NOT space**). The image at `image_path` will be center-cropped to `480*480` pixels and mask the square from `(h0,w0)`to `(h1,w1)`. These coordinations are range from 0 to 1. The model will fill the square with object described in `text`. Please use a square much **larger than the desired region**.  
+<img width="741" alt="comp_pipeline" src="https://user-images.githubusercontent.com/9153807/174002452-3670850f-b234-4515-8ac8-2971de26f78a.png">
 
 ## Gallery
+
+
 ![more_samples](https://github.com/THUDM/CogView2/files/8553662/big.1.pdf)
