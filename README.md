@@ -20,7 +20,7 @@ CogView2 is a hierarchical transformer (6B-9B-9B parameters) for text-to-image g
 ```
 
 ## Web Demo
-Try Replicate web demo here [![Replicate](https://replicate.com/thudm/cogview2/badge)](https://replicate.com/thudm/cogview2)
+Thank the Replicate team to deploy a web demo! Try at [![Replicate](https://replicate.com/thudm/cogview2/badge)](https://replicate.com/thudm/cogview2) .
 
 ## Getting Started
 ### Setup
