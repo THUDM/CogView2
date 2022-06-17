@@ -1,0 +1,18 @@
+build:
+  cuda: "11.3"
+  gpu: true
+  python_version: "3.8"
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "libglib2.0-0"
+  python_packages:
+    - "ipython==7.21.0"
+    - "SwissArmyTransformer==0.2.1"
+    - "icetk==0.0.3"
+
+  run:
+    - pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+    # only to support building without cuda
+    - git clone https://github.com/chenxwh/Image-Local-Attention && cd Image-Local-Attention && TORCH_CUDA_ARCH_LIST='8.0' FORCE_CUDA=1 python setup.py install
+    - git clone https://github.com/NVIDIA/apex && cd apex && pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+predict: "predict.py:Predictor"
