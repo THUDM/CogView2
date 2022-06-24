@@ -20,7 +20,10 @@ CogView2 is a hierarchical transformer (6B-9B-9B parameters) for text-to-image g
 ```
 
 ## Web Demo
-Thank the Replicate team to deploy a web demo! Try at [![Replicate](https://replicate.com/thudm/cogview2/badge)](https://replicate.com/thudm/cogview2) .
+
+- Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/THUDM/CogView2)
+
+- Thank the Replicate team to deploy a web demo! Try at [![Replicate](https://replicate.com/thudm/cogview2/badge)](https://replicate.com/thudm/cogview2) .
 
 ## Getting Started
 ### Setup
